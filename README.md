@@ -7,10 +7,10 @@
 ## isi
 
 - [basic code 🔧](/BAsic/README.md)
-- [DOM 🎓](/DOm/README.md)
-- [Modern 💷](/ModERn/README.md)
+- [DOM ☕](/DOm/README.md)
+- [Modern 🔩](/ModERn/README.md)
 
-## Tentang C
+## Tentang JavaScript 
 
 nama : JavaScript<br/>
 sejak : 1995<br/>
@@ -20,7 +20,7 @@ paradigma pemrograman : [multi-paradigma](https://en.wikipedia.org/wiki/Programm
 situs web resmi : [ecma internasional](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)<br/>
 learning : [exercism.org](https://exercism.org/tracks/c)
 
-## C compile
+## run file
 
 ```bash
 # run
