@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        line-height: 0;
+      }
+
+      body {
+        background-color: rgb(32, 68, 68);
+      }
+      .container {
+        width: 600px;
+        margin: 10px auto;
+        margin-top: 15vh;
+        border: 4px solid rgb(255, 255, 255);
+        overflow: auto;
+      }
+      .thumb {
+        width: 200px;
+        float: left;
+        border: 2px solid rgb(255, 255, 255);
+        box-sizing: border-box;
+      }
+      .thumb:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+
+      .fade {
+        opacity: 0;
+        animation: fadeIn 0.5s forwards;
+      }
+
+      .active {
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="img/1.jpg" class="jumbo" />
+      <div class="thumbnail">
+        <img src="img/1.jpg" class="thumb" />
+        <img src="img/2.jpg" class="thumb" />
+        <img src="img/3.jpg" class="thumb" />
+        <img src="img/4.jpg" class="thumb" />
+        <img src="img/5.jpg" class="thumb" />
+        <img src="img/6.jpg" class="thumb" />
+      </div>
+    </div>
+    <script src="6.js"></script>
+  </body>
+</html>
